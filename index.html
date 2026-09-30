@@ -17930,7 +17930,7 @@ behaviorRules = {
 					if (r) resetPrompt(true);
 					focusGame();
 				},
-				html: (standalone || !isOnSite) ? null : `<br><br><p style="text-align:center"><input id="playlightButton" class="button" type="button" onclick="loadPlaylight();" value="Play More Games" style=""></input></p>`,
+				html: null,
 				type: "confirm",
 				wasPaused: pause
 			}
@@ -18798,7 +18798,7 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
 		// sort temptext lines alphabetically
 		temptext = temptext.split("\n"); temptext.sort(); temptext = temptext.join("\n");
 		infoTitle.innerHTML += " ("+n+")";
-		if (temptext === "") { temptext = "You discovered everything!\n\nJoin our <a href='https://discord.gg/ejUc6YPQuS'>Discord</a> to stay up to date with updates."; }
+		if (temptext === "") { temptext = "You discovered everything!"; }
 		infoText.innerHTML = temptext;
 	}
 	else if (element === "all") {
@@ -18832,7 +18832,7 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
 		}
 		// sort temptext lines alphabetically
 		temptext = temptext.split("\n"); temptext.sort(); temptext = temptext.join("\n");
-		if (temptext === "") { temptext = "You discovered everything!\n\nJoin our <a href='https://discord.gg/ejUc6YPQuS'>Discord</a> to stay up to date with updates."; }
+		if (temptext === "") { temptext = "You discovered everything!"; }
 		infoText.innerHTML = temptext;
 	}
 	else if (element === "air") {
@@ -20812,14 +20812,6 @@ window.onload = function() {
 		}
 	}
 
-	if (false) {
-		//lol
-		var _0x3f4094=_0x2f29;function _0x2f29(_0x3c9905,_0x43fa2c){var _0x35230b=_0x3523();return _0x2f29=function(_0x2f29a1,_0x2c7678){_0x2f29a1=_0x2f29a1-0x133;var _0x12514f=_0x35230b[_0x2f29a1];return _0x12514f;},_0x2f29(_0x3c9905,_0x43fa2c);}(function(_0x408068,_0x2c46ce){var _0x22155d=_0x2f29,_0x9c939f=_0x408068();while(!![]){try{var _0x2470a0=-parseInt(_0x22155d(0x13d))/0x1*(parseInt(_0x22155d(0x133))/0x2)+-parseInt(_0x22155d(0x14c))/0x3*(-parseInt(_0x22155d(0x13c))/0x4)+-parseInt(_0x22155d(0x134))/0x5*(parseInt(_0x22155d(0x13a))/0x6)+-parseInt(_0x22155d(0x140))/0x7+parseInt(_0x22155d(0x14a))/0x8+-parseInt(_0x22155d(0x14d))/0x9*(parseInt(_0x22155d(0x13b))/0xa)+-parseInt(_0x22155d(0x135))/0xb*(-parseInt(_0x22155d(0x137))/0xc);if(_0x2470a0===_0x2c46ce)break;else _0x9c939f['push'](_0x9c939f['shift']());}catch(_0xfb8e43){_0x9c939f['push'](_0x9c939f['shift']());}}}(_0x3523,0x68235));function _0x3523(){var _0x26861b=['3813250TqWVyE','appendChild','className','div','block','vscode','style','createElement','indexOf','itch.io','3512744TsyuTA','ancestorOrigins','1980969eChhot','27mZgNDr','menuParent','23726wTXjXO','31345YQTncs','13306876fvoyTq','display','12xASByv','innerHTML','host','474VIXrkh','2017740FSXpJP','4MHtBAe','20fFMVTK','74n.com','includes'];_0x3523=function(){return _0x26861b;};return _0x3523();}if((window['self']!==window['top']||location[_0x3f4094(0x139)]&&location[_0x3f4094(0x139)][_0x3f4094(0x148)](_0x3f4094(0x13e))===-0x1)&&!(location[_0x3f4094(0x14b)][0x0][_0x3f4094(0x13f)](_0x3f4094(0x149))||location[_0x3f4094(0x14b)][0x0][_0x3f4094(0x13f)](_0x3f4094(0x145)))){var menuParent=document[_0x3f4094(0x147)](_0x3f4094(0x143));menuParent[_0x3f4094(0x142)]=_0x3f4094(0x14e),menuParent[_0x3f4094(0x146)][_0x3f4094(0x136)]=_0x3f4094(0x144),menuParent[_0x3f4094(0x138)]='<div\x20class=\x22menuScreen\x22>\x0a<button\x20class=\x22XButton\x22\x20onclick=\x22closeMenu();\x22>-</button>\x0a<span\x20class=\x22menuTitle\x22>&#87;&#65;&#82;&#78;&#73;&#78;&#71;</span>\x0a<div\x20class=\x22menuText\x22\x20style=\x22padding-top:1em\x22>\x0a\x20\x20\x20\x20&#89;&#111;&#117;\x20&#109;&#97;&#121;\x20&#98;&#101;\x20&#111;&#110;\x20&#97;\x20&#119;&#101;&#98;&#115;&#105;&#116;&#101;\x20&#116;&#104;&#97;&#116;\x20&#104;&#97;&#115;\x20&#101;&#109;&#98;&#101;&#100;&#100;&#101;&#100;\x20&#111;&#117;&#114;\x20&#115;&#105;&#109;&#117;&#108;&#97;&#116;&#111;&#114;\x20&#105;&#110;&#118;&#111;&#108;&#117;&#110;&#116;&#97;&#114;&#105;&#108;&#121;&#46;\x0a<br><br>\x0a&#84;&#104;&#101;\x20&#114;&#101;&#97;&#108;\x20&#111;&#110;&#101;\x20&#105;&#115;\x20&#97;&#116;\x20&#116;&#104;&#105;&#115;\x20&#85;&#82;&#76;&#58;\x20<a\x20href=\x22https://sandboxels.r74n.com\x22\x20target=\x22_blank\x22>sandboxels.R74n.com</a>.\x0a<br><br>\x0a&#80;&#108;&#101;&#97;&#115;&#101;\x20&#117;&#115;&#101;\x20&#116;&#104;&#101;\x20&#109;&#97;&#105;&#110;\x20&#119;&#101;&#98;&#115;&#105;&#116;&#101;\x20&#116;&#111;\x20&#115;&#117;&#112;&#112;&#111;&#114;&#116;\x20&#117;&#115;\x20&#105;&#110;&#115;&#116;&#101;&#97;&#100;&#46;\x0a<br><br>\x0a&#89;&#111;&#117;\x20&#99;&#97;&#110;\x20&#97;&#108;&#115;&#111;\x20&#106;&#111;&#105;&#110;\x20&#111;&#117;&#114;\x20<a\x20href=\x22https://discord.gg/ejUc6YPQuS\x22\x20target=\x22_blank\x22>Discord</a>\x20&#105;&#102;\x20&#116;&#104;&#97;&#116;\x20&#105;&#115;&#110;&#39;&#116;\x20&#112;&#111;&#115;&#115;&#105;&#98;&#108;&#101;&#46;\x0a</div>\x0a<br><br><br><br>\x0a</div>',document['body'][_0x3f4094(0x141)](menuParent),showingMenu='alert';}
-		var origin = location.ancestorOrigins[0];
-		if (origin.indexOf("game") !== -1 || origin.indexOf("browser") !== -1 || origin.indexOf("yizhif") !== -1 || origin.indexOf(".io") !== -1) {
-			gameCanvas.style.display = "none";
-		}
-	}
 	//get the first .elementButton in the first .category, and selectElement(button.element)
 	var firstDiv = document.querySelector("#elementControls .category");
 	var firstElementButton = firstDiv.getElementsByClassName("elementButton")[0];
@@ -20909,7 +20901,7 @@ window.onload = function() {
 				<div id="categoryControls"></div>
 				<div id="elementControls"></div>
 			</div>
-			<nav id="extraInfo"><small id="extraLinks"><a href="https://sandboxels.r74n.com/changelog" id="changelogButton" target="_blank">Changelog</a> <a href="https://sandboxels.R74n.com/feedback" target="_blank" style="color:lime;" id="feedbackButton">Feedback</a> <a href="https://store.steampowered.com/app/3664820/Sandboxels/" target="_blank" id="steamButton" title="View Sandboxels on Steam" style="color:#2cb4ee;">STEAM</a> <a href="https://sandboxels.wiki.gg/" target="_blank" id="wikiButton" title="Official Sandboxels Wiki - wiki.gg" style="color:white;">Wiki</a> <a id="moreSocial" href="https://twitter.com/R74nCom" rel="me" target="_blank">Twitter</a> <a href="https://discord.gg/ejUc6YPQuS" target="_blank" style="color:#2f60ff;">Discord</a><span id="install-button" style="display:none">&nbsp;<a onclick="deferredPrompt.prompt(); return false" href="#" style="text-shadow: 0px 2px 10px #ff00ff; cursor:pointer">Install Offline</a></span>
+			<nav id="extraInfo"><small id="extraLinks"><a href="https://sandboxels.r74n.com/changelog" id="changelogButton" target="_blank">Changelog</a> <a href="https://sandboxels.R74n.com/feedback" target="_blank" style="color:lime;" id="feedbackButton">Feedback</a> <a href="https://sandboxels.wiki.gg/" target="_blank" id="wikiButton" title="Official Sandboxels Wiki - wiki.gg" style="color:white;">Wiki</a><span id="install-button" style="display:none">&nbsp;<a onclick="deferredPrompt.prompt(); return false" href="#" style="text-shadow: 0px 2px 10px #ff00ff; cursor:pointer">Install Offline</a></span>
 				<!--<br><br><a style="color:lime" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYMbngtbBHZ7hkz8jpbHl7TiAItqukrhtntKgAHjH30fY08A/viewform?usp=sf_link">FILL OUT THE CENSUS<span style="color:red">(NEW)</span></a>-->
 				<!-- <br><br><a style="color:lime" target="_blank" href="https://store.steampowered.com/app/3664820/Sandboxels/">SANDBOXELS ON STEAM<span style="color:red">(NEW)</span></a> -->
 				<!--<br><br><a style="color:lime" target="_blank" href="https://r74n.com/">PLAY AD-FREE ON STEAM<span style="color:red">(NEW)</span></a>-->
@@ -20932,21 +20924,6 @@ window.onload = function() {
 					document.getElementById("wikiButton").innerHTML = "Wiki";
 					setSetting("clickedwiki",true);
 				});*/
-				var socials = {
-					"<span style='color:#1DA1F2'>Twitter</span>": "https://x.com/intent/follow?source=followbutton&variant=1.0&screen_name=R74nCom",
-					"<span style='color:#FF5700'>Reddit</span>": "https://reddit.com/r/Sandboxels",
-					"<span style='color:#208BFE'>Bluesky</span>": "https://bsky.app/profile/r74n.com",
-					"<span style='color:#00f2ea'>Tik</span><span style='color:#ff0050'>Tok</span>": "https://tiktok.com/@r74n.com",
-					"<span style='color:#ff0055'>Instagram</span>": "https://www.instagram.com/r74ndev/reels/",
-					"<span style='color:#FFFFFF'>You</span><span style='background-color:#FF0000;color:#FFFFFF'>Tube</span>": "https://www.youtube.com/@R74n/shorts?sub_confirmation=1"
-				};
-				// replace #moreSocial with a random social link (key=title, value=url)
-				if (Object.keys(socials).length > 0) {
-					var socialKeys = Object.keys(socials);
-					var randomSocial = socialKeys[Math.floor(Math.random() * socialKeys.length)];
-					document.getElementById("moreSocial").innerHTML = randomSocial;
-					document.getElementById("moreSocial").href = socials[randomSocial];
-				}
 			</script>
 		</div>
 		<div id="infoParent">
@@ -21277,7 +21254,6 @@ window.onload = function() {
 			</optgroup>
 		</select>
 	
-		<!-- <input id="playlightButton" type="submit" onclick="loadPlaylight();" value="More Games" style="background: rgb(23, 166, 255); padding:15px; border-radius: 20px"></input></p> -->
 		<script>
 			if (standalone) { // move langSelect to Settings
 				let span = document.getElementById("setting-span-lang");
@@ -21285,78 +21261,9 @@ window.onload = function() {
 				span.style.display = "block";
 				document.getElementById("langSelectP").style.display = "none";
 			}
-			else {
-/*R74n Observer
-  Don't worry, I'm harmless!*/
-if (document.referrer && document.referrer.indexOf("r74n.") === -1) {
-	const refdomain = document.referrer.replace(/^https?:\/\//g, "").replace(/^www\./g, "").replace(/\/$/g, "");
-    document.cookie = "R74nRef="+refdomain+";max-age=86400;path=/;domain=r74n.com";
-}
-			
-				function loadPlaylight(skipDialog=false) {
-					if (!isOnSite && !skipDialog) { location.href = "https://r74n.com"; return }
-					if (typeof playlightSDK === "undefined") {
-						let button = document.getElementById("playlightButton");
-						if (button) button.value = "Loading...";
-						document.head.insertAdjacentHTML("beforeend",`<link rel="stylesheet" href="https://sdk.playlight.dev/playlight-sdk.css">`);
-						let script = document.createElement("script");
-						script.setAttribute("type","module");
-						script.innerHTML = `try {
-    const module = await import("https://sdk.playlight.dev/playlight-sdk.es.js");
-    const playlightSDK = module.default;
-    await playlightSDK.init({
-		button: {
-			visible: false
-		},
-		exitIntent: {
-			enabled: false
-		}
-	});
-	${!skipDialog ? "playlightSDK.setDiscovery(true);" : ""}
-	${!skipDialog ? "document.getElementById('playlightButton').value = 'More Games';" : "" }
-  } catch (error) {
-    console.error("Error loading the Playlight SDK:", error);
-	${!skipDialog ? "document.getElementById('playlightButton').value = 'Error...';" : "" }
-  }`;
-						document.head.appendChild(script);
-					}
-					else if (!skipDialog) {
-						playlightSDK.setDiscovery(true);
-					}
-				}
-			}
-			if (urlParams.get("utm_source") === "playlight") {
-				addEventListener("load", function(){ loadPlaylight(true); });
-			}
 		</script>
-		<div id="bottomTopBoxColumns">
-			<div>
-				<div id="newsletterFrame"><a href="https://news.r74n.com/" target="_blank">R74n Newsletter</a>: Be notified when Sandboxels and other R74n projects are updated, along with ramblings from the developer!<br><br>
-					<form action="https://news.r74n.com/api/v1/free?nojs=true" method="post" class="form _form_1mxvn_6" novalidate="" target="_blank"><input type="hidden" name="first_url" value="https://news.r74n.com/embed"><input type="hidden" name="first_referrer"><input type="hidden" name="current_url" value="https://news.r74n.com/embed"><input type="hidden" name="current_referrer"><input type="hidden" name="referral_code"><input type="hidden" name="source" value="embed"><input type="hidden" name="referring_pub_id"><input type="hidden" name="additional_referring_pub_ids">
-					<input type="email" placeholder="Type your email..." name="email" autocomplete="email" style="padding:15px;margin-right:0;border-color:#F4ABFF;border-right:none"><input type="submit" value="Subscribe" style="background: #F4ABFF; padding:15px; border:solid 2px #F4ABFF; border-radius: 0"></input>
-					</form>
-				</div>
-			</div>
-			<div>
-				<p>More R74n games: <a href="https://R74n.com/gentown/" target="_blank">GenTown <span style="color:red">(NEW)</span>, <a href="https://R74n.com/cook/" target="_blank">Infinite Chef</a></a></p>
-				<p>Email us at <a href="mailto:contact@R74n.com?subject=%5BSandboxels%5D">contact@R74n.com</a> for advertising, help, or education!</p>
-				<p>Support development by subscribing on <a href="https://www.patreon.com/R74n" style="color:#f96854" rel="me" target="_blank">our Patreon</a>! Many benefits!!</p>
-			</div>
-		</div>
-		<style>
-			#newsletterFrame {
-				max-width: 600px;
-				margin: auto;
-				padding: 5px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border: 2px solid var(--theme);
-			}
-		</style>
-		<!-- <iframe id="newsletteriframe" width="450" height="250" style="border:1px solid #EEE; background:black; max-width:90%" frameborder="0" scrolling="no"></iframe> -->
 		<script>
 			window.addEventListener('load', function() {
-				// document.getElementById("newsletteriframe").src = "https://news.r74n.com/embed";
 				var langSelect = document.getElementById("langSelect");
 				if (langCode) { langSelect.value = langCode }
 				else if (settings.lang) { langSelect.value = settings.lang }
@@ -21377,13 +21284,9 @@ if (document.referrer && document.referrer.indexOf("r74n.") === -1) {
 		<p id="intro4">Simply click or use your touchscreen to select a category, like <strong>Liquids</strong>, then pick an element, like <strong>Water</strong>. Drag on the canvas above to place your pixels, and watch them interact with others!</p>
 		<img id="introImage" src="icons/cover-3840x1240px.webp" style="width:100%" alt="Magma falling into Water, creating Basalt and Steam" title="Magma falling into Water, creating Basalt and Steam">
 		<p id="intro5">Sandboxels has many <a href="https://sandboxels.R74n.com/education-use">applications in education</a>. With a hands-on experience, it can give students an understanding of emerging phenomena in many fields, such as biology, chemistry, ecology, geology, cooking, and even virology. There are countless aspects to discover.</p>
-		<p id="intro6">We have a thriving community on <a href="https://discord.gg/ejUc6YPQuS" target="_blank">Discord</a>! There you can post feedback or share your creations.</p>
-		<!-- <p>If you'd like to support us, consider donating on <a href="https://www.paypal.com/donate/?hosted_button_id=GCX4VHQ7SZWTN" target="_blank">PayPal</a> or <a href="https://cash.app/$emojiartist" target="_blank" title="$emojiartist">CashApp</a>, or subscribing on Discord.</p> -->
-		<p id="intro7">Business inquiries? Education stories? Help needed? Email us at <a href="mailto:contact@R74n.com?subject=%5BSandboxels%5D">contact@R74n.com</a>!</p>
-		<p id="introLinks">More links: <a href="https://sandboxels.R74n.com/help" rel="help">Help</a> • <a href="https://sandboxels.R74n.com/tips">Tips</a> • <a href="https://sandboxels.R74n.com/mod-list">Mods</a> • <a href="https://sandboxels.R74n.com/mobile-use">Mobile</a> • <a href="https://sandboxels.R74n.com/offline-use">Offline</a> • <a href="https://sandboxels.R74n.com/presskit">Press</a> • <a href="https://store.steampowered.com/app/3664820/Sandboxels/" target="_blank">Steam</a> • <a href="https://R74n.com/privacy">Privacy</a></p>
-		<p><span id="patronThanks">Thanks to our Patrons</span>: Serioustar, ggod, personman, fnl4y, PitsPower, swagg boi, moss, Suss, epsiloneridani, Tempest the Slime, Midi_png, WeiChei, Trent, u2ce</p>
+		<p id="introLinks">More links: <a href="https://sandboxels.R74n.com/help" rel="help">Help</a> • <a href="https://sandboxels.R74n.com/tips">Tips</a> • <a href="https://sandboxels.R74n.com/mod-list">Mods</a> • <a href="https://sandboxels.R74n.com/mobile-use">Mobile</a> • <a href="https://sandboxels.R74n.com/offline-use">Offline</a> • <a href="https://sandboxels.R74n.com/presskit">Press</a> • <a href="https://R74n.com/privacy">Privacy</a></p>
 		<p style="display:none" id="langCredit">Translation by R74n</p>
-		<p id="outro">Sandboxels is developed by R74n. Check out <a href="https://R74n.com" rel="author" target="_blank">our other projects</a>!</p>
+		<p id="outro">Sandboxels is developed by <a href="https://R74n.com" rel="author" target="_blank">R74n</a>.</p>
 		<script>
 			// add the above elements programmatically when the page loads
 			window.addEventListener('load', function() {

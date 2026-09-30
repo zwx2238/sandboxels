@@ -96,19 +96,6 @@ a:hover { text-decoration: underline; }
 #bottomTopBox {
 	text-align: center;
 }
-#bottomTopBoxColumns {
-	display:flex; justify-content: space-around
-}
-@media screen and (max-width: 1300px) {
-	#bottomTopBoxColumns {
-		display:block; justify-content: unset;
-	}
-}
-@media screen and (min-width: 1300px) {
-	#newsletterFrame {
-		border: none!important;
-	}
-}
 #bottomLeftBox {
 	float: left;
 	width: 50%;
